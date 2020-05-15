@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../#sourse/scss/adfont.scss"
+    ],
+    "names": [],
+    "file": "adfont.css"
+}
