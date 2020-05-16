@@ -4,9 +4,36 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.__btn{
+    display: block;
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    color: #ffffff;       
+    font-size: 11px;
+    font-weight: 400;        
+    text-transform: uppercase;
+}
+
+.__title{        
+    color: #222222;     
+    font-size: 38px;
+    font-weight: 700;  
+    text-transform: uppercase;
+    text-align: center;
+}
+.__txt{
+    text-align: center;       
+      color: #222222;    
+      font-size: 17px;
+      font-weight: 400;  
+  }
+
 .header{   
 
     position: relative;
+   
     nav {
         height: 50px;
         background-color: #212121;
@@ -154,28 +181,8 @@
  }
 
  .reason{
-
-    padding-top: 71px;
-
-    &__btn{
-        display: block;
-        margin: 0 auto;
-        width: 112px;
-        height: 24px;
-        background-color: #000000;
-        color: #ffffff;       
-        font-size: 11px;
-        font-weight: 400;        
-        text-transform: uppercase;
-    }
-
-    &__title{        
-        color: #222222;     
-        font-size: 38px;
-        font-weight: 700;  
-        text-transform: uppercase;
-        text-align: center;
-    }
+ 
+    padding-top: 71px; 
 
     &__icon{
         display: flex;
@@ -204,4 +211,45 @@
         font-weight: 400;
     }
 
+ }
+
+ .mobile{
+    padding: 48px 0px 79px 0px;
+    min-height: 864px;
+    background: url('../img/bg_mbuber.png') center center/cover no-repeat;
+    
+    .row{
+        margin-top: 13px;
+    }
+
+    &__item{
+        width: 320px;
+        height: 280px;
+        margin: 19px auto; 
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;   
+        text-align: center;
+        padding-top: 92px;
+    }
+    &__bg1{
+        background: url('../img/bg_m_1.png') center center/cover no-repeat;
+    }
+    &__bg2{
+        background: url('../img/bg_m_2.png') center center/cover no-repeat;
+    }
+    &__bg3{
+        background: url('../img/bg_m_3.png') center center/cover no-repeat;
+    }
+    &__bg4{
+        background: url('../img/bg_m_4.png') center center/cover no-repeat;
+    }
+    &__bg5{
+        background: url('../img/bg_m_5.png') center center/cover no-repeat;
+    }
+    &__bg6{
+        background: url('../img/bg_m_6.png') center center/cover no-repeat;
+    }
+  
  }
