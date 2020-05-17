@@ -155,7 +155,8 @@ $second__color: #ff5656;
         text-transform: uppercase;       
         font-size: 60px;
         text-align: center;
-        line-height: 6px;       
+        line-height: 6px;  
+             
      }
 
     &__h2 { 
@@ -369,6 +370,12 @@ $second__color: #ff5656;
         font-size: 22px;
         font-weight: 400;
      }
+
+     &__subtxt{
+        color: #1ca8c3;     
+        font-weight: 300;
+            }
+
      .col-md-6{
          margin: 36px 0 36px 0;
      }
@@ -378,14 +385,29 @@ $second__color: #ff5656;
         font-size: 22px;
         font-weight: 400;
      }
+     
      &__list{
          margin-top: 22px;
          list-style-type: none;
          padding-left: 50px;
             li{
+                position: relative;
                 font-size: 17px;
                 font-weight: 300;
-                line-height: 24px;
+                margin-bottom: 10px;
+             
+                &:before{
+                    content:'';
+                    display: block;
+                    position: absolute;                    
+                    width: 21px;
+                    height: 20px;    
+                    left: -32px;
+                    top:50%;
+                    transform: translatey(-50%);              
+                    background: url('../img/icons/check_blue.svg') center (center/cover) no-repeat;
+                }
+                
             }
        
      }

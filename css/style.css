@@ -381,6 +381,11 @@
   font-weight: 400;
 }
 
+.requer__subtxt {
+  color: #1ca8c3;
+  font-weight: 300;
+}
+
 .requer .col-md-6 {
   margin: 36px 0 36px 0;
 }
@@ -398,8 +403,22 @@
 }
 
 .requer__list li {
+  position: relative;
   font-size: 17px;
   font-weight: 300;
-  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.requer__list li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 21px;
+  height: 20px;
+  left: -32px;
+  top: 50%;
+  -webkit-transform: translatey(-50%);
+          transform: translatey(-50%);
+  background: url("../img/icons/check_blue.svg") center center/cover no-repeat;
 }
 /*# sourceMappingURL=style.css.map */
