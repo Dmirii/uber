@@ -330,13 +330,8 @@ $second__color: #ff5656;
       
         
      } 
-
-  
-
+     
    
-       
-   
-  
  }
 
 
@@ -364,4 +359,34 @@ $second__color: #ff5656;
         text-align: center;
      }
 
+ }
+
+ .requer{
+     padding: 68px 0 53px 0;
+
+     &__title{
+        color: $main__color;
+        font-size: 22px;
+        font-weight: 400;
+     }
+     .col-md-6{
+         margin: 36px 0 36px 0;
+     }
+
+     &__title_pink{
+        color: $second__color;
+        font-size: 22px;
+        font-weight: 400;
+     }
+     &__list{
+         margin-top: 22px;
+         list-style-type: none;
+         padding-left: 50px;
+            li{
+                font-size: 17px;
+                font-weight: 300;
+                line-height: 24px;
+            }
+       
+     }
  }

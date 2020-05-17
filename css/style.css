@@ -370,4 +370,36 @@
   line-height: 24px;
   text-align: center;
 }
+
+.requer {
+  padding: 68px 0 53px 0;
+}
+
+.requer__title {
+  color: #1eacc7;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.requer .col-md-6 {
+  margin: 36px 0 36px 0;
+}
+
+.requer__title_pink {
+  color: #ff5656;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.requer__list {
+  margin-top: 22px;
+  list-style-type: none;
+  padding-left: 50px;
+}
+
+.requer__list li {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+}
 /*# sourceMappingURL=style.css.map */
