@@ -182,6 +182,7 @@
 
 .reason {
   padding-top: 71px;
+  height: 870px;
 }
 
 .reason__icon {
@@ -194,6 +195,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  min-height: 112px;
   max-width: 113px;
   max-height: 113px;
   background-color: #1eacc7;
@@ -228,6 +230,7 @@
 }
 
 .mobile__item {
+  position: relative;
   width: 320px;
   height: 280px;
   margin: 19px auto;
@@ -237,29 +240,70 @@
   text-transform: uppercase;
   text-align: center;
   padding-top: 92px;
+  padding-bottom: 35px;
 }
 
-.mobile__bg1 {
+.mobile__item__bg1 {
   background: url("../img/bg_m_1.png") center center/cover no-repeat;
 }
 
-.mobile__bg2 {
+.mobile__item__bg2 {
   background: url("../img/bg_m_2.png") center center/cover no-repeat;
 }
 
-.mobile__bg3 {
+.mobile__item__bg3 {
   background: url("../img/bg_m_3.png") center center/cover no-repeat;
 }
 
-.mobile__bg4 {
+.mobile__item__bg3 {
+  background: url("../img/bg_m_3.png") center center/cover no-repeat;
+}
+
+.mobile__item__bg4 {
   background: url("../img/bg_m_4.png") center center/cover no-repeat;
 }
 
-.mobile__bg5 {
+.mobile__item__bg5 {
   background: url("../img/bg_m_5.png") center center/cover no-repeat;
 }
 
-.mobile__bg6 {
+.mobile__item__bg6 {
   background: url("../img/bg_m_6.png") center center/cover no-repeat;
+}
+
+.mobile__plus {
+  cursor: pointer;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.car {
+  height: 896px;
+  padding: 57px 0 137px 0;
+  background: url("../img/bg_car.png") center center/cover no-repeat;
+}
+
+.car__btn {
+  color: #070716;
+  background: #ffffff;
+}
+
+.car__title {
+  color: #ffffff;
+}
+
+.car__txt {
+  color: #ffffff;
+}
+
+.car__subtxt {
+  color: #222222;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
