@@ -382,18 +382,12 @@
 }
 
 .requer__subtxt {
-  color: #1ca8c3;
+  color: #1eacc7;
   font-weight: 300;
 }
 
 .requer .col-md-6 {
   margin: 36px 0 36px 0;
-}
-
-.requer__title_pink {
-  color: #ff5656;
-  font-size: 22px;
-  font-weight: 400;
 }
 
 .requer__list {
@@ -420,5 +414,13 @@
   -webkit-transform: translatey(-50%);
           transform: translatey(-50%);
   background: url("../img/icons/check_blue.svg") center center/cover no-repeat;
+}
+
+.requer__pink {
+  color: #ff5656;
+}
+
+.requer__pink_list li:before {
+  background: url("../img/icons/check_pink.svg") center center/cover no-repeat;
 }
 /*# sourceMappingURL=style.css.map */
