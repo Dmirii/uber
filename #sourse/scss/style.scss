@@ -199,7 +199,7 @@ $second__color: #ff5656;
  .reason{
  
     padding-top: 71px;
-    height: 870px; 
+    min-height: 870px; 
 
     &__icon{
         display: flex;
@@ -337,7 +337,7 @@ $second__color: #ff5656;
 
 
  .car{
-     height: 896px;
+     min-height: 896px;
      padding: 57px 0 137px 0;
      background: url('../img/bg_car.png') center center/cover no-repeat;
    
@@ -425,7 +425,7 @@ $second__color: #ff5656;
 
 
  .allword{
-     height: 717px;
+     min-height: 717px;
      padding: 57px 0 49px 0;
      background: url('../img/bg_allword.png') center center/cover no-repeat;
     position: relative;
