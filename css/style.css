@@ -423,4 +423,30 @@
 .requer__pink_list li:before {
   background: url("../img/icons/check_pink.svg") center center/cover no-repeat;
 }
+
+.allword {
+  height: 717px;
+  padding: 57px 0 49px 0;
+  background: url("../img/bg_allword.png") center center/cover no-repeat;
+  position: relative;
+}
+
+.allword a {
+  color: #1fbad6;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 49px;
+  text-align: center;
+  line-height: 68px;
+}
+
+.allword a:hover {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
