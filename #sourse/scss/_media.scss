@@ -107,7 +107,7 @@
         z-index: 50;
         display: block;
         position: absolute;
-        left: 93%;        
+        right: 20px;       
         top: 50%;
         transform: translatey(-50%);
         width: 25px;
@@ -246,9 +246,21 @@
          }
 
     }
+    .car{
+        min-height: 320px;
+        padding-bottom: 0;
+        padding-top: 20px;
+        background-color: black;
+        background-image:none;
+    .car__title, .car__txt{
+        display: none;
 
-   
-    
+    }
+    .car__subtxt{
+        color: white;
+
+    }
+}
 
     .footer{
   
@@ -312,7 +324,7 @@
     
     .ubermain{
         min-height: 400px;
-        padding: 93px 0 35px 0;
+        padding: 143px 0 35px 0;
         .ubermain__text{
             display: none;
     
