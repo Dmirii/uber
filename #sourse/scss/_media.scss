@@ -31,9 +31,19 @@
     .header__link{
         font-size: 10px;
     }
-    .subheader__phone{
-        font-size: 19px !important;
+    .header .subheader a{
+         font-size: 19px ;
     }
+    .header .subheader__logotext{
+        font-size: 11px;
+    }
+
+    .header .subheader__btn{
+      
+        width: 100%;
+        margin-top: 21px;
+        height: 40px;
+}
 
     .ubermain__h1{
         font-size: 39px;
@@ -46,27 +56,18 @@
         width: 300px;
     }    
 
-    .footer__right{
-
-        flex-direction: column;
-    }
-
-    .subheader__logotext{
-        font-size: 11px !important;
-    }
-
-    .subheader__btn{
-      
-            width: 100% !important;
-            margin-top: 21px !important;
-            height: 40px !important;
-    }
+ 
 
     .reason__icon{
         width: 100px ;
         height: 100px ;
     }
 
+    
+    .footer__right{
+
+        flex-direction: column;
+    }
   
 }
 
@@ -99,6 +100,7 @@
 
     .header__active{
         left: 0;
+        
     }
   
     .header__burger{
@@ -127,37 +129,40 @@
         span:nth-child(1){transform: translateY(3px) rotate(-45deg); }
         span:nth-child(2){display: none; }
         span:nth-child(3){transform: translateY(3px) rotate(45deg); }
+       
     }
 
     .subheader__hide{
         display: none;
     }
   
-    .subheader__btn_hide{
-        display: block !important;               
+    
+    .header .subheader__btn_hide{
+        display: block ;               
          
     }
 
-    .subheader__phone{
+    .header .subheader__phone{
          
         margin-top: 5px;
-        text-align: center !important;
+        text-align: center ;
         font-style: 16px;
     }
-    .subheader__btn{      
-        width: 100% !important;
-        margin-top: 8px !important;
-        height: 38px !important;
+    .header .subheader__btn{      
+        width: 100%;
+        margin-top: 8px;
+        height: 38px;
     }
 
     .ubermain__h1{
-        font-size: 36px;
+        font-size: 39px;
+        line-height: 36px;
     }
     .ubermain__h2{
         font-size: 23px;
     }
     .ubermain__text{
-        display: none;
+        font-size: 14px;
     }
 
     .mobile__item {
@@ -183,15 +188,150 @@
 
         flex-direction: column;
     }
+    .footer .footer__icons{
+        display: flex ;
+        flex-wrap: wrap;
+        height: 85px;
+        width: 85px;
+
+    }
 
 
 }
 
-/* 
-.ubermain__h1{
-    font-size: 41px;
+@media(max-width: 575px){
+
+    .header .subheader a{
+        font-size: 17px;
+    }
+
+
+    .header{
+
+        .subheader__logo{
+            margin-top: 27px;
+        }
+    
+        .subheader__logotext{
+            display: none;
+        }
+        .subheader__btn{
+            display: block;
+            width: 130px;
+            font-size: 10px;           
+          
+        }
+    
+        
+    
+    }
+    
+    .reason{
+        .row{
+            justify-content: center;     
+            text-align: center; 
+            flex-wrap: wrap;
+        }   
+        
+        &__icon{
+            margin-bottom: 10px;
+        }  
+        .__title{
+            font-size: 16px;
+        }
+        .reason__txt{
+            padding-left: 30px;
+            text-align: left;
+            
+         }
+
+    }
+
+   
+    
+
+    .footer{
+  
+    .footer__divider{
+            display: none  ;
+        }
+
+        ul{
+            display: flex;            
+            flex-direction: column ;
+            margin: 4px 0;
+            align-items:center;
+       }    
+       li{
+         line-height: 5px;
+       }
+    }
+
+    .footer__center{
+        display: flex;
+        justify-content: center;   
+              
+        flex-wrap: wrap; 
+        width: 170px;      
+    
+    }
+    .footer__center .footer__mmenu{
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 6px;       
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+       
+    }
+
+    .footer__center .footer__mmenu a{
+        margin: 0 ;
+        font-size: 14px ;
+        line-height: 15px;
+        text-transform: none ;
+    }
+
+    .footer__width{
+        width: 25%;
+        height: 150px;
+    }
+    .footer__lng{
+        margin-top: 5px;
+        width: 100px;
+    }
+    .footer ul  {
+        margin: 0;
+    }
+    .footer ul li {
+        line-height: 10px;
+    }
+  
+
+    
+    .ubermain{
+        min-height: 400px;
+        padding: 93px 0 35px 0;
+        .ubermain__text{
+            display: none;
+    
+        }
+    
+        .ubermain__h1{
+            line-height: 45px;
+            padding: 0 24px;
+        }
+    
+        .ubermain__h2{
+            line-height: 34px;
+            font-size: 31px;
+            padding: 0 24px;
+        }
+    }
+    
+
+
+
 }
-.ubermain__h2{
-    font-size: 26px;
-}
- */
+
