@@ -691,9 +691,12 @@
     border: none;
     padding: 0;
     margin: 10px 0;
+    width: 100%;
+    text-align: center;
   }
   .header__menu .header__item .header__link {
     font-size: 20px;
+    display: block;
   }
   .header__active {
     left: 0;
